@@ -1,0 +1,19 @@
+﻿<Window x:Class="String_Checker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Text Comparer" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="68*"/>
+            <ColumnDefinition Width="449*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="10,10,0,0" TextWrapping="Wrap" Text="Reference File Path" VerticalAlignment="Top" Width="467" Grid.ColumnSpan="2" Name="File1Path"/>
+        <Button Content="..." HorizontalAlignment="Left" Height="22" Margin="414,10,0,0" VerticalAlignment="Top" Width="25" Grid.Column="1" Click="File1_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,37,0,0" TextWrapping="Wrap" Text="Compare File Path" VerticalAlignment="Top" Width="467" Grid.ColumnSpan="2" Name="File2Path"/>
+        <Button Content="..." HorizontalAlignment="Left" Height="23" Margin="414,37,0,0" VerticalAlignment="Top" Width="25" Grid.Column="1" Click="File2_Click"/>
+        <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="201" Margin="10,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="497" Name="OutputText"/>
+        <Button Grid.ColumnSpan="2" Content="Compare" HorizontalAlignment="Left" Height="22" Margin="10,65,0,0" VerticalAlignment="Top" Width="82" Click="ButtonCompare_Click"/>
+        <Label Content="Mina Shoaib Rahman" FontSize="8" Grid.Column="1" HorizontalAlignment="Left" Margin="357,293,0,0" VerticalAlignment="Top" Width="92" Height="26"/>
+
+    </Grid>
+</Window>
