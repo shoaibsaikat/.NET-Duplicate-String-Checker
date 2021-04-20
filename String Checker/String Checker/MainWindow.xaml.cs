@@ -68,7 +68,7 @@ namespace String_Checker
                     {
                         int i = 0, j = 0;
                         char[] key = new char[200];
-                        while(i < line.Length && line[i] != '\"')
+                        while (i < line.Length && line[i] != '\"')
                         {
                             i++;
                         }

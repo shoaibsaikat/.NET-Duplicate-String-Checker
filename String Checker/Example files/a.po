@@ -1,0 +1,11 @@
+msgid "Click Here"
+msgstr "Cliquez ici"
+
+msgid "Click Here 2"
+msgstr "Cliquez ici 2"
+
+msgid "Click Here 4"
+msgstr "Cliquez ici 4"
+
+msgid "Click Here 5"
+msgstr "Cliquez ici 5"
